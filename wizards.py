@@ -93,7 +93,7 @@ if os.name=='nt':
 
 
 # In[9]:
-
+#verification script 
 
 VERIFICATION_SCRIPT = os.path.join(paths['APIMODEL_PATH'], 'research', 'object_detection', 'builders', 'model_builder_tf2_test.py')
 # Verify Installation
@@ -503,7 +503,7 @@ get_ipython().system('pip install opencv-python-headless')
 
 
 # In[49]:
-
+#testing the video input and detecting the number plate 
 
 cap = cv2.VideoCapture(0)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
